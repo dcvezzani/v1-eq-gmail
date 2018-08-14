@@ -20,3 +20,8 @@ be/data/
 be/dev.sqlite3*
 be/token.json
 be/credentials.json
+
+be/client_secret.json
+be/credentials-calendar.json
+be/credentials-gmail.json
+
