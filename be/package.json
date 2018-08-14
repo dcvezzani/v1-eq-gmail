@@ -1,0 +1,27 @@
+{
+  "name": "be",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "debug": "DEBUG=be:* nodemon ./bin/www --exec babel-node --presets es2015,stage-2",
+    "start": "babel-node ./bin/www --presets es2015,stage-2"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "googleapis": "27",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.3.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.22.0",
+    "nodemon": "^1.17.5"
+  }
+}
